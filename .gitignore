@@ -1,0 +1,97 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.310tf/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Type checkers
+.mypy_cache/
+.pytype/
+
+# Jupyter checkpoints and related
+.ipynb_checkpoints
+.jupyter/
+nbconvert/
+*.nbconvert.ipynb
+
+# Notebook outputs (keep notebooks themselves under version control)
+# (Do not ignore *.ipynb unless you prefer to keep them out of repo)
+
+# TensorFlow / Keras artifacts
+checkpoint
+ckpt-*
+*.ckpt
+*.ckpt.index
+*.ckpt.data-*
+events.out.tfevents.*
+logs/
+.tensorboard/
+saved_model/
+*.h5
+*.hdf5
+models/
+
+# matplotlib cache
+.matplotlib/
+
+# Editor directories / files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Runtime / temp files
+*.log
+*.tmp
+*.swp
+
+# Secrets and env files
+.env
+.env.*
+.envrc
+
+# Misc
+.python-version
+
+# End of file
